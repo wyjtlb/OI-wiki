@@ -415,7 +415,7 @@ Dijkstra（/ˈdikstrɑ/或/ˈdɛikstrɑ/）算法由荷兰计算机科学家 E. 
                 u = 0
                 mind = 0x3f3f3f3f
                 for j in range(1, n + 1):
-                    if vis[j] == False and dis[v] < mind:
+                    if vis[j] == False and dis[j] < mind:
                         u = j
                         mind = dis[j]
                 vis[u] = True
